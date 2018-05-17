@@ -1,0 +1,5 @@
+model\XmlModel.class
+service\MessageService.class
+model\Forecast.class
+service\MessageServiceImpl.class
+model\City.class

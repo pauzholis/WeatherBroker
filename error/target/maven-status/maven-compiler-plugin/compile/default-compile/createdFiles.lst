@@ -1,0 +1,2 @@
+exception\WeatherBrokerServiceException.class
+exception\EmptyRequestException.class

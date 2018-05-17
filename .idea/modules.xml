@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/WeatherBroker.iml" filepath="$PROJECT_DIR$/WeatherBroker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/admin_api/admin_api.iml" filepath="$PROJECT_DIR$/admin_api/admin_api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/database/database.iml" filepath="$PROJECT_DIR$/database/database.iml" />
+      <module fileurl="file://$PROJECT_DIR$/error/error.iml" filepath="$PROJECT_DIR$/error/error.iml" />
+      <module fileurl="file://$PROJECT_DIR$/message_service/message_service.iml" filepath="$PROJECT_DIR$/message_service/message_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/weather_service/weather_service.iml" filepath="$PROJECT_DIR$/weather_service/weather_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yahoo_weather/yahoo_weather.iml" filepath="$PROJECT_DIR$/yahoo_weather/yahoo_weather.iml" />
+    </modules>
+  </component>
+</project>

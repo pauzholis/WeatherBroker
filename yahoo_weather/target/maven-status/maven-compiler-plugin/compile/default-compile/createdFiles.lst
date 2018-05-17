@@ -1,0 +1,10 @@
+view\Condition.class
+view\YahooResponse.class
+view\Item.class
+view\Results.class
+service\ReceiveJmsService.class
+service\YahooJMSSendService.class
+service\ForecastService.class
+view\Location.class
+view\Channel.class
+view\Query.class
