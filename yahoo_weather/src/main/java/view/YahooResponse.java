@@ -18,4 +18,6 @@ public class YahooResponse {
     public void setQuery(Query query) {
         this.query = query;
     }
+
+
 }

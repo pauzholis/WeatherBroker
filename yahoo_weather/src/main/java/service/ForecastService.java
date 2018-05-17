@@ -62,7 +62,7 @@ public class ForecastService {
         } catch (URISyntaxException e) {
             throw new WeatherBrokerServiceException("hui");
         }
-        log.info(yahooResponse.toString());
+        log.info("Yahoo's response object: " + yahooResponse.toString());
         return yahooResponse;
     }
 

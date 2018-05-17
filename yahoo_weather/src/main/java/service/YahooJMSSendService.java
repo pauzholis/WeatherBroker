@@ -36,6 +36,7 @@ public class YahooJMSSendService {
         if (xml == null) {
             throw new WeatherBrokerServiceException("Empty JMS message");
         }
+        log.info("Sending message to data base: " + xml);
         jmsContext.createProducer().send(queue, xml);
     }
 }

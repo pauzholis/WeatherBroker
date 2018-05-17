@@ -40,13 +40,13 @@ public class ReceiveJmsService implements MessageListener {
      *
      * @param message JMS сообщение
      */
+    @Override
     public void onMessage(Message message) {
         try {
+            log.info("Message: " + message.getBody(String.class));
             TextMessage textMessage = (TextMessage) message;
             String text = textMessage.getText();
             forecastService.sendXmlToDataBaseFromYahooResponse(text);
-//            System.out.println("Received: " + text);
-            log.info("Message: " + message.getBody(String.class));
         } catch (JMSException | EmptyRequestException | WeatherBrokerServiceException ex) {
             log.error(ex.getMessage(), ex);
         }

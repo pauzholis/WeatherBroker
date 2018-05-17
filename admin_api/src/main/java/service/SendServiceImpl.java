@@ -43,7 +43,7 @@ public class SendServiceImpl implements SendService {
             throw new EmptyRequestException("Field \"City\" is empty");
         }
         City writeCity = new City(txt);
-        log.info("Sending message: " + txt);
+        log.info("Sending message to yahoo_weather module: " + txt);
         String xml = messageService.createXmlMessage(writeCity);
         context.createProducer().send(topic, xml);
     }
