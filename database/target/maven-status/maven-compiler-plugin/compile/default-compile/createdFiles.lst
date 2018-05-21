@@ -1,1 +1,2 @@
+entity\ForecastEntity.class
 service\DataBaseJmsRecieverService.class
