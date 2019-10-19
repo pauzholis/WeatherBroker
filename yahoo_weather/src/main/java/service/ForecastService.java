@@ -60,7 +60,7 @@ public class ForecastService {
         try {
             yahooResponse = restTemplate.getForObject(new URI(url), YahooResponse.class);
         } catch (URISyntaxException e) {
-            throw new WeatherBrokerServiceException("hui");
+            throw new WeatherBrokerServiceException("");
         }
         log.info("Yahoo's response object: " + yahooResponse.toString());
         return yahooResponse;
